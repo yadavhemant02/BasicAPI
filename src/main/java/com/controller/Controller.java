@@ -30,7 +30,7 @@ public class Controller {
 	
 	@GetMapping("/basic")
 	public ResponseEntity<?> getString() {
-		return new ResponseEntity<String>("basic api",HttpStatus.OK);
+		return new ResponseEntity<String>("basic api hi bhai kesa hai",HttpStatus.OK);
 	}
 	
 	
